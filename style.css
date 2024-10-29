@@ -1,0 +1,322 @@
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 750px){
+.sidenav {
+height: auto;
+padding: 10px;
+      }
+.row.content {
+	height:auto;
+}
+.slider{
+	visibility:none;
+}
+}
+/* Add responsiveness - make the columns appear on top of each other instead of next to each other on small screens */
+@media screen and (max-width: 1000px) {
+  .column-66,
+  .column-33 {
+    width: 100%;
+    text-align: center;
+  }
+}
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 64px;
+}
+.btn-success{
+	text-align:right;
+}
+
+/* Clear floats */
+.row:after {
+  content: "";
+  display: table;
+  clear: both
+}
+
+/* 2/3 column */
+.column-66 {
+  float: left;
+  width: 66.66666%;
+  padding: 20px;
+}
+
+/* 1/3 column */
+.column-33 {
+  float: left;
+  width: 33.33333%;
+  padding: 20px;
+}
+/*Social Media Code Bellow*/
+.fa{
+  padding:45px;
+  font-size:20px;
+  text-align:center;
+  text-decoration:none;
+  margin:4px 2px;
+  border-radius:50%;
+}
+.fa:hover{
+  opacity:0.4;
+}
+.fa-skype{
+  background:#00aff0;
+  color: white;
+}
+.fa-facebook{
+  background:#3B5998;
+  color: white;
+}
+.fa-twitter{
+  background:#55ACEE;
+  color: white;
+}
+.fa-google{
+  background:#dd4b39;
+  color: white;
+}
+.fa-instagram{
+  background:#125688;
+  color:white;
+}
+/*------------------------*/
+.h1{
+	font-family: 'Sofia';
+	text-align:center;
+	color:#e91e1e;
+	margin:0px;
+}
+.iconTop{
+	height:55px;
+	width:55px;
+	
+}
+.slider{
+	height:30%;
+	width:80%;
+	margin-left:10%;
+}
+.radio{
+	border-radius:10%;
+}
+/*Height of the grid*/
+.row.content{
+	height:100%;
+}   
+.navbar{
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+.sidenav{
+      padding-top: 10px;
+      background-color: #f1f1f1;
+      height:100%;
+    }	
+/* Color of the Navbar Text*/
+.navbar-inverse .navbar-nav >li>a {
+    color: white;
+}
+/* Color of the Navbar left Text*/
+.navbar-inverse .navbar-brand {
+    color:white;
+}
+.navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.active>a:focus,.navbar-inverse .navbar-nav>.active>a:hover {
+    color:#fff;
+    background-color:#b62318;
+}
+/*Col-md-2 on the right side-- Text Size*/
+.col2font{
+	font-size:60px;
+}
+.fontSizeFooter{
+	font-size:20px;
+}
+.fontSizee{
+	font-family:'Kaushan Script';
+	font-size:40px;
+}
+.fontType{
+	font-family: 'Kaushan Script';
+}
+.adjust{
+	background-color:white;
+}
+.sizee{
+	margin-top:100px;
+}
+.marginTop{
+	margin-top:15px;
+	background-color:white;
+}
+.h1Margin{
+	margin-top:10px;
+	margin-bottom:10px;
+}
+footer {
+      background-color: black;
+      color: white;
+      padding: 50px;
+	  margin-top:10px;
+    }
+/*PAGE MENU*/
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  background-color:#79736f30
+}
+/*Responsivel Photo Gallery for MENU page*/
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.gallery{
+	width:400px;
+	height:320px;
+}
+.sstyle{
+	padding-left:60px;
+}
+/*PAGE CONTACT - Responsive form code*/
+* {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width:90%;
+}
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+.imagem{
+	height:400px;
+	width:600px;
+}
+/*ABout page CSS*/
+ .jumbotron {
+    background-color: #b62318;
+    color: #fff;
+    padding: 100px 25px;
+  }
+  .bg-grey {
+    background-color: #f6f6f6;
+  }
+  .logo-small {
+    color: #b62318;
+    font-size: 50px;
+  }
+  .logo {
+    color: black;
+    font-size: 200px;
+  }
+  @media screen and (max-width: 768px) {
+    .col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+    }
+  }
